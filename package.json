@@ -1,21 +1,18 @@
 {
-  "name": "develop",
+  "name": "techtalks",
   "version": "1.0.0",
-  "description": "\"\"",
-  "main": "server.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/2code4wsp/techTalks.git"
   },
-  "keywords": [
-    "\"MVC\"",
-    "\"CMS\"",
-    "\"blog\""
-  ],
-  "author": "\"2code4wsp\"",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/2code4wsp/techTalks/issues"
@@ -25,7 +22,7 @@
     "bcrypt": "^5.1.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "express-handlebars": "^7.0.7",
+    "mysql2": "^3.2.4",
     "sequelize": "^6.31.0"
   }
 }
