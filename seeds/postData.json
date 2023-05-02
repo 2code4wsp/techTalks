@@ -1,18 +1,22 @@
 [
     {
-      "title": "Music Near Me",
-      "text": "A mobile app that will send you notifications whenever a concert is playing in your area."
+      "title": "Learning the MVC method",
+      "text": "Placement of the folders is key to understanding the MVC method. Starting with the model folder will help you follow the method."
     
     },
     {
-      "title": "The Ultimate Tech Quiz",
-      "text": "A web app that will give users 10 new technical questions each day and track their progress in things like programming, cybersecurity, database architecture, and more!"
+      "title": "Folders are important",
+      "text": "Allowing yourself to bounce often between folders is important in creating the MVC method. You will find yourself doing this often."
     
     },
     {
-      "title": "Roll 'Em Up",
-      "text": "A game for Windows and macOS where players move a ball through a series of increasingly challenging mazes."
+      "title": "Resources",
+      "text": "There are many videos and documentation you can read to discover your method of learning how to set up the MVC method. Keep searching, but I found it easiest to set up each folder as I wrote my code; that way I stayed in order."
      
+    },
+    {
+        "title": "new tech",
+        "text": "Wired is an interesting and fun source of all tech news. What is the latest, greatest and what is on the rise."
     }
   ]
   
