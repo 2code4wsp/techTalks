@@ -2,7 +2,8 @@ const express = require('express');
 const path = require('path');
 const sequelize = require('./config/connections');
 const routes = require('./Develop/routes');
-const helpers = require('./utils/helpers.js');
+const helpers = require('./utils/helpers');
+const exphbs = require('express-handlebars');
 
 
 //sets up express app
@@ -11,6 +12,8 @@ const PORT = process.env.PORT || 3001; //what port do I use and how do I know to
 
 app.use(express.static(path.join(__dirname, 'public'))); //do I need the index.html here? 
 //sets up the routes
+app.set('view engine', 'handlebars');
+app.engine('handlebars', exphbs());
 
 
 //starts the server to begin listening
